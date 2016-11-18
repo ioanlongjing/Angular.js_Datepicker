@@ -52,7 +52,8 @@ angular.module('ui.bootstrap.demo').controller('DatepickerDemoCtrl', function ($
   {
     var date = data.date,
       mode = data.mode;
-    if (mode === 'day') {
+    if (mode === 'day') 
+    {
       var dayToCheck = new Date(date).setHours(0,0,0,0);
 
       for (var i = 0; i < $scope.events.length; i++) 
