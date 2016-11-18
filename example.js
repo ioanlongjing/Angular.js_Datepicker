@@ -38,10 +38,15 @@ angular.module('ui.bootstrap.demo').controller('DatepickerDemoCtrl', function ($
     $scope.dt = new Date(year, month, day);
   };
 
-  $scope.events = 
-  [ {
+  var someday = new Date('2016-11-30');
 
-  } ]
+  $scope.events = 
+  [
+    {
+      date: someday,
+      status: 'partially'
+    }
+  ]
 
   function getDayClass(data) 
   {
