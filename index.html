@@ -7,21 +7,10 @@
     <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-2.2.0.js"></script>
     <script src="example.js"></script>
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/mark_color.css">
   </head>
   <body>
 
-<style>
-  .full button span {
-    background-color: limegreen;
-    border-radius: 32px;
-    color: black;
-  }
-  .partially button span {
-    background-color: orange;
-    border-radius: 32px;
-    color: black;
-  }
-</style>
 <div ng-controller="DatepickerDemoCtrl">
     <pre>Selected date is: <em>{{dt | date:'fullDate' }}</em></pre>
 
