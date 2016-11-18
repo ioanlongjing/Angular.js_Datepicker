@@ -38,6 +38,7 @@ angular.module('ui.bootstrap.demo').controller('DatepickerDemoCtrl', function ($
     $scope.dt = new Date(year, month, day);
   };
 
+  /*
   var tomorrow = new Date();
   tomorrow.setDate(tomorrow.getDate() + 1);
   var afterTomorrow = new Date(tomorrow);
@@ -52,6 +53,11 @@ angular.module('ui.bootstrap.demo').controller('DatepickerDemoCtrl', function ($
       status: 'partially'
     }
   ];
+  */
+  $scope.events = 
+  [ {
+
+  } ]
 
   function getDayClass(data) 
   {
